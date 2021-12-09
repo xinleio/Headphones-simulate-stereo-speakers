@@ -10,10 +10,10 @@ Copy: L=-25.0dB*L+5 R=-25.0dB*R+6
 回声x1
 Copy: 7=-15.45dB*L 8=-15.45dB*R
 Channel: 7
-Filter: ON HSC Fc 3355 Hz Gain -4 dB Q 0.35
+Filter: ON HSC Fc 3354 Hz Gain -4 dB Q 0.35
 Delay: 13.29 ms
 Channel: 8
-Filter: ON HSC Fc 3355 Hz Gain -4 dB Q 0.35
+Filter: ON HSC Fc 3354 Hz Gain -4 dB Q 0.35
 Delay: 13.29 ms
 Copy: L=L+7 R=R+8
 回声x2
