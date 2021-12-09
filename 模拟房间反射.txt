@@ -10,10 +10,10 @@ Copy: L=-25.0dB*L+5 R=-25.0dB*R+6
 回声x1
 Copy: 7=-15.45dB*L 8=-15.45dB*R
 Channel: 7
-Filter: ON HSC Fc 3350 Hz Gain -4 dB Q 0.35
+Filter: ON HSC Fc 3355 Hz Gain -4 dB Q 0.35
 Delay: 13.29 ms
 Channel: 8
-Filter: ON HSC Fc 3350 Hz Gain -4 dB Q 0.35
+Filter: ON HSC Fc 3355 Hz Gain -4 dB Q 0.35
 Delay: 13.29 ms
 Copy: L=L+7 R=R+8
 回声x2
@@ -44,7 +44,7 @@ Filter: ON HSC Fc 2500 Hz Gain -12.5 dB Q 0.35
 Delay: 74.17 ms
 Copy: L=L+13 R=R+14
 回声x5
-Copy: 15=-29.23dB*L 16=-29.23dB*R
+Copy: 15=-29.21dB*L 16=-29.21dB*R
 Channel: 15
 Filter: ON HSC Fc 2500 Hz Gain -13 dB Q 0.35
 Delay: 85.26 ms
@@ -62,13 +62,13 @@ Filter: ON HSC Fc 2000 Hz Gain -16 dB Q 0.35
 Delay: 109.3 ms
 Copy: L=L+17 R=R+18
 回声x7
-Copy: 19=-36.5dB*L 20=-36.5dB*R
+Copy: 19=-36.7dB*L 20=-36.7dB*R
 Channel: 19
-Filter: ON HSC Fc 1780 Hz Gain -21.1 dB Q 0.35
-Delay: 174.45 ms
+Filter: ON HSC Fc 1756 Hz Gain -21.1 dB Q 0.35
+Delay: 173.17 ms
 Channel: 20
-Filter: ON HSC Fc 1780 Hz Gain -21.1 dB Q 0.35
-Delay: 174.45 ms
+Filter: ON HSC Fc 1756 Hz Gain -21.1 dB Q 0.35
+Delay: 173.17 ms
 Copy: L=L+19 R=R+20
 回声x8
 Copy: 21=-36.8dB*L 22=-36.8dB*R
@@ -91,9 +91,9 @@ Copy: L=L+23 R=R+24
 回声x10
 Copy: 25=-39.0dB*L 26=-39.0dB*R
 Channel: 25
-Filter: ON HSC Fc 1300 Hz Gain -28 dB Q 0.35
+Filter: ON HSC Fc 1288 Hz Gain -28 dB Q 0.35
 Delay: 389 ms
 Channel: 26
-Filter: ON HSC Fc 1300 Hz Gain -28 dB Q 0.35
+Filter: ON HSC Fc 1288 Hz Gain -28 dB Q 0.35
 Delay: 389 ms
 Copy: L=L+25 R=R+26
