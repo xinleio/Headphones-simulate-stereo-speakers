@@ -69,11 +69,11 @@ Copy: L=L+17 R=R+18
 Copy: 19=-36.8dB*L 20=-36.8dB*R
 Channel: 19
 Filter: ON HP Fc 400 Hz
-Filter: ON HSC Fc 1745 Hz Gain -21.1 dB Q 0.35
+Filter: ON HSC Fc 1743 Hz Gain -21.1 dB Q 0.35
 Delay: 171.5 ms
 Channel: 20
 Filter: ON HP Fc 400 Hz
-Filter: ON HSC Fc 1745 Hz Gain -21.1 dB Q 0.35
+Filter: ON HSC Fc 1743 Hz Gain -21.1 dB Q 0.35
 Delay: 171.5 ms
 Copy: L=L+19 R=R+20
 回声x8
