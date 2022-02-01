@@ -1,0 +1,34 @@
+Preamp: -3.6 dB
+↓补偿声源文件的频率特性
+Filter: ON LSC Fc 33 Hz Gain -1.25 dB Q 0.8
+Filter: ON PK Fc 100 Hz Gain -0.15 dB Q 0.2
+Filter: ON HSC Fc 500 Hz Gain 0.8 dB Q 0.35
+Filter: ON PK Fc 1450 Hz Gain 1.25 dB Q 1.1
+Filter: ON PK Fc 2500 Hz Gain -0.15 dB Q 1.8
+Filter: ON HSC Fc 3650 Hz Gain 2.1 dB Q 0.9
+Filter: ON PK Fc 8100 Hz Gain -1.6 dB Q 2.1
+Filter: ON PK Fc 8560 Hz Gain 1.3 dB Q 2.2
+↓创建虚拟串扰声道
+Copy: 3=-5.5dB*L 4=-5.5dB*R
+Channel: 3
+↓↓使极低频的声像定位模糊化，增加低频包围感（模仿双低音炮）
+Filter: ON LSC Fc 35 Hz Gain 2 dB Q 0.9
+Filter: ON LS Fc 60 Hz Gain 1 dB
+↓↓模拟音箱串扰效果的频率特性
+Filter: ON HSC Fc 800 Hz Gain -3 dB Q 0.35
+Filter: ON PK Fc 1550 Hz Gain -5 dB Q 1.5
+Filter: ON HSC Fc 4900 Hz Gain -13 dB Q 0.9
+Filter: ON PK Fc 8000 Hz Gain 6 dB Q 3
+↓↓模拟音箱串扰效果的群延迟特性
+Delay: 0.16 ms
+↓↓↓下同
+Channel: 4
+Filter: ON LSC Fc 35 Hz Gain 2 dB Q 0.9
+Filter: ON LS Fc 60 Hz Gain 1 dB
+Filter: ON HSC Fc 800 Hz Gain -3 dB Q 0.35
+Filter: ON PK Fc 1550 Hz Gain -5 dB Q 1.5
+Filter: ON HSC Fc 4900 Hz Gain -13 dB Q 0.9
+Filter: ON PK Fc 8000 Hz Gain 6 dB Q 3
+Delay: 0.16 ms
+↓混音
+Copy: L=L+4 R=R+3
