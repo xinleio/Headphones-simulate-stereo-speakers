@@ -9,7 +9,7 @@ ver 2.1.220118_A201
 注意事项：  
 1、注意旧文件备份，注意旧文件备份，注意旧文件备份。  
 2、如果事先已经安装了Equalizer APO并且有在使用的，请不要直接复制和替换config.txt，否则正在使用的设置将被覆盖。你可以用include功能手动加载“模拟音箱串扰.txt”、“模拟房间反射.txt”两个文件，也可以将下面3行参数复制粘贴到Equalizer APO主界面  
-Preamp: 0.7 dB  
+Preamp: 0.6 dB  
 Include: 模拟音箱串扰.txt  
 Include: 模拟房间反射.txt  
 3、检查Equalizer APO是否正常运作，如果加载参数之后声音没有任何变化，大致有以下几种原因：  
