@@ -10,11 +10,11 @@ Copy: L=-26.0dB*L+5 R=-26.0dB*R+6
 回声x1
 Copy: 7=-17.0dB*L 8=-17.0dB*R
 Channel: 7
-Filter: ON HP Fc 467 Hz
+Filter: ON HP Fc 470 Hz
 Filter: ON HSC Fc 3267 Hz Gain -4 dB Q 0.35
 Delay: 13.56 ms
 Channel: 8
-Filter: ON HP Fc 467 Hz
+Filter: ON HP Fc 470 Hz
 Filter: ON HSC Fc 3267 Hz Gain -4 dB Q 0.35
 Delay: 13.56 ms
 Copy: L=L+7 R=R+8
