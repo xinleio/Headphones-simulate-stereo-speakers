@@ -3,8 +3,8 @@
 
 用法：  
 1、安装Equalizer APO  
-2、将2个txt文件复制到：根目录\EqualizerAPO\config  
-
+2、将2个txt文件复制到：根目录\EqualizerAPO\config，并且使用Equalizer APO加载
+3、使用Equalizer APO加载混响插件，并按图设置参数
 注意事项：  
 1、注意旧文件备份，注意旧文件备份，注意旧文件备份。  
 2、你可以用include功能手动加载“模拟音箱串扰.txt”、“模拟房间反射.txt”两个文件，也可以将下面3行参数复制粘贴到Equalizer APO主界面  
