@@ -1,3 +1,0 @@
-Preamp: 0.6 dB
-Include: 模拟音箱串扰.txt
-Include: 模拟房间反射.txt
