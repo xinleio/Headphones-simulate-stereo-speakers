@@ -1,5 +1,6 @@
 # 耳机模拟立体声音箱算法
 通过模拟立体声音箱串扰、模拟房间反射声实现固定角度的模拟立体声音箱效果，用于优化耳机的空间印象
+详情见：https://www.bilibili.com/video/BV1pP4y1z7TM  
 
 用法：  
 1、安装Equalizer APO  
